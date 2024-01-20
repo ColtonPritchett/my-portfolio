@@ -2,15 +2,15 @@ project:
   type: website
 
 website:
-  title: "Your_Name Data Science Portfolio"
+  title: "Colton Pritchett Computer Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/your_url
+  repo-url: https://github.com/ColtonPritchett
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2023©"
+    left: "Colton Pritchett 2024©"
     right: 
       - icon: linkedin
         href: Your_LinkedIn_URL
@@ -21,6 +21,8 @@ website:
     right:
       - text: "Home"
         file: index.qmd
+      - text: "Resume"
+        file: resume.qmd
       - text: "Data Cleansing"
         file: cleansing.qmd
       - text: "Data Exploration"

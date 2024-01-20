@@ -1,0 +1,46 @@
+---
+layout: resume
+title: "Colton Pritchett"
+---
+
+(208) 956-9764 | pri22019@byui.edu
+
+### Education
+Diploma | Post Falls High School (2018-2020)
+
+Associates of Science | North Idaho College (2018-2020)
+
+Bachelors of Computer Science | Brigham Young University - Idaho (2023 - Present)
+
+### Programming Experience
+Languages: C++ | C# | Java | Python | HTML | JavaScript | CSS | Zilch 
+Coding Environments: VSCode | Rider | IntelliJ | PyCharm | Notepad++ | Zero Engine | Android Studio | Apps Script | PowerApps | Unity
+
+### Projects
+- Gameplay remake of Tetris Attack for the SNES (2015)
+- Calendar and events tracker Android App (2016)
+- Scripting in video games (2018-2019)
+- Google Sheets note sorter and reverse tag lookup (2021)
+- Procedural terrain generation (2024-TBD)
+- Various viable projects for the SIT Team (2023-present)
+- Dozens of miscellaneous school projects (2018-present)
+
+### Experience
+**Landscaping | Prairie Falls Golf Course | Post Falls, ID (2018)**
+- Cared for the grounds of the golf course
+- My first job at 16, taught me discipline and character
+
+**Manufacturing | Gunfighters Inc | Rathdrum, ID (2019-2020, 2023)**
+- Started in the shipping department, later moved to manufacturing
+- Learned to use many tools and that I don't want to work with my hands as a career
+
+**Missionary | The Church of Jesus Christ of Latter-Day Saints | Baltimore, MD (2020 - 2022)**
+- Taught many people according to their understanding
+- Created, followed, and was accountable to goals and plans
+- Learned and became fluent in Spanish
+
+
+**Tech Support/Programming | SIT Team at BYUI | Rexburg, ID (2023-present)**
+- Work with PowerApps, Apps Script, and Canvas to allow for an easy experience for both students and teachers
+- Created several products that each saved the team dozens of hours such as automated scripts, functional applications, etc
+- Worked in a team environment requiring mutual cooperation, trust, and support
