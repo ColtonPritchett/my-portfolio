@@ -103,5 +103,40 @@
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "projects/ds250_project_template_clean copy.html",
+    "href": "projects/ds250_project_template_clean copy.html",
+    "title": "Client Report - What’s in a Name",
+    "section": "",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "projects/ds250_project_template_clean copy.html#elevator-pitch",
+    "href": "projects/ds250_project_template_clean copy.html#elevator-pitch",
+    "title": "Client Report - What’s in a Name",
+    "section": "",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "projects/ds250_project_template_clean copy.html#questiontask-1",
+    "href": "projects/ds250_project_template_clean copy.html#questiontask-1",
+    "title": "Client Report - What’s in a Name",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nHow does your name at your birth year compare to its use historically?\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\ncolton = df[df['name'] == 'Colton']\nchart = px.line(colton, x='year', y='Total', title='Colton over the years')\nchart.add_vline(x=2002, annotation_text=\"My birth\")\nchart.show()\n\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure."
+  },
+  {
+    "objectID": "projects/ds250_project_template_clean copy.html#questiontask-2",
+    "href": "projects/ds250_project_template_clean copy.html#questiontask-2",
+    "title": "Client Report - What’s in a Name",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nIf you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?\n1990\n\n\nRead and format data\n# Include and execute your code here\nbrittany = df[df['name'] == 'Brittany']\nchart = px.line(brittany, x='year', y='Total', title='Brittany over the years')\nchart.add_vline(x=1990, annotation_text=\"My guess\")\nchart.show()\n\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure."
+  },
+  {
+    "objectID": "projects/ds250_project_template_clean copy.html#questiontask-3",
+    "href": "projects/ds250_project_template_clean copy.html#questiontask-3",
+    "title": "Client Report - What’s in a Name",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nMary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\nbible_names = copy.deepcopy(df)\n\nbible_names = bible_names[(bible_names['year'] &gt;= 1920) & (bible_names['year'] &lt;= 2000)]\n\nchart = go.Figure()\n\nnames_to_plot = ['Mary', 'Martha', 'Peter', 'Paul']\n\nfor name in names_to_plot:\n    name_data = bible_names[bible_names['name'] == name]\n    chart.add_trace(go.Scatter(x=name_data['year'], y=name_data['Total'], mode='lines', name=name))\n\nchart.update_layout(title='Biblical Names from 1920-2000')\n\nchart.show()\n\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure.\nThink of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?\n\n\ntable example\n# Include and execute your code here\nsabrina = df[df['name'] == 'Sabrina']\nchart = px.line(sabrina, x='year', y='Total', title='Sabrina over the years')\nchart.add_vline(x=1954, annotation_text=\"Release of 'Sabrina'\")\nchart.add_vline(x=1995, annotation_text=\"Release of 'Sabrina' remake\")\nchart.show()"
   }
 ]
